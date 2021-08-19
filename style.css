@@ -1,0 +1,186 @@
+/* General Styling */
+body{
+    font-family: 'STIX Two Text', serif;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+
+h3{
+    font-weight: 600;
+}
+
+.paragraph{
+    font-size: 18px;
+}
+
+.image{
+    width:550px;
+    height:330px;
+}
+
+.contentRow{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+}
+
+.contactRow{
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgb(63,61,86);
+    font-size:20px;
+}
+
+.navbar a:hover{
+    color: #B9B7BD;
+}
+
+.nav-link{
+     color:white;
+}
+
+.nav-item{
+    margin-right:35px;
+}
+
+.navbar-toggler-icon{
+   color:white;
+  font-size:40px;
+}
+
+
+/* Bio */
+/* .row, .rC{
+    border:1px solid green;
+} */
+
+
+
+section{
+    margin-top:0px;
+}
+
+table, td, th{
+    border:1px solid rgb(63,61,86);
+}
+
+/* Skills */
+.firstLi{
+    margin-left:47px;
+}
+
+.secondLi{
+    margin-left:70px;
+}
+
+.thirdLi{
+    margin-left:31px;
+}
+
+.fourthLi{
+    margin-left:66px;
+}
+
+.fifthLi{
+    margin-left:86px;
+}
+
+.sixthLi{
+    margin-left:33px;
+}
+
+.seventLi{
+    margin-left:54px;
+}
+
+#yahoo{
+    color:#430297;
+}
+
+#linkedin{
+    color: #0072b1;
+}
+
+#github{
+    color: rgb(13,17,23);
+}
+
+#twitter{
+    color: #1DA1F2;
+}
+
+#phone{
+    color: rgb(66,66,66);
+}
+
+#flag{
+    color:#008753;
+     margin-bottom:15px;
+}
+.logoRow{
+    flex-direction: column;
+    margin-top:10px;
+}
+
+.logoMargin{
+    margin-bottom:25px;
+}
+
+
+/* Footer */
+footer{
+    background-color: rgb(63,61,86);
+}
+
+.logo{
+    width:300px;
+    height:200px;
+}
+
+.footerRow{
+    align-items: center;
+    justify-content: center;
+}
+
+.pRow{
+    justify-content: center;
+    color:rgba(255, 255, 255, 0.493);
+}
+
+
+.footerRow a{
+    margin:25px;
+}
+
+
+.fa-circle{
+    color: rgb(63,61,86);
+    font-size:12px;
+    position: relative;
+    top:-2px;
+}
+
+
+/* Media Queries */
+@media (max-width:576px){
+    .image{
+    width:300px;
+    height:195px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .paragraph{
+        font-size: 15px;
+    }
+
+    .logoRow a{
+        font-size: 14px;
+    }
+}
